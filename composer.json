@@ -1,0 +1,23 @@
+{
+    "name": "KaiWangZone/ipCategory",
+    "description": "This is a dependency library for calculating the available IP range",
+    "version": "1.0.0",
+    "keywords": [ "IP", "Subnet Mask", "PHP"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KaiWang",
+            "email": "3095065668@qq.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "KaiWang\\ipCategory\\": "src/"
+        }
+    }
+}
